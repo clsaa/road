@@ -6,9 +6,11 @@ https://cloud.tencent.com/developer/article/1348741
 
 Explicitly setting the Setup DSL attributes intellij.version and intellij.type tells the Gradle plugin to use that configuration of the IntelliJ Platform to build the plugin project. If a local installation of IntelliJ IDEA is the desired type and version of the IntelliJ Platform, use intellij.localPath to point to that installation. If the intellij.localPath attribute is set, do not set the intellij.version and intellij.type attributes as this could result in undefined behavior.
 
-## GRADLE下载问题
+## GRADLE下载IDEAIC失败的问题
 
-可以手动下载
+>可以手动下载
+
+通过 gradle clean build --debug  查看日志 获取下载地址
 
 gradle下载的文件所在位置: .gradle/caches/modules-2/files-2.1
 
