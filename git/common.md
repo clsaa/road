@@ -1,5 +1,6 @@
 1. 打开SS代理
 2. 设置全局代理,需要查看自己的端口是不是也是1080
+3. 享受吧
 
 ```shell
 git config --global http.proxy http://127.0.0.1:1080
