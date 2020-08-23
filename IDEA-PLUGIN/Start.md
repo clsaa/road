@@ -1,3 +1,5 @@
+# IDEA-PLUGIN-START
+
 https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started.html
 
 https://cloud.tencent.com/developer/article/1348741
